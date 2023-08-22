@@ -34,6 +34,8 @@ public class App
 
         String str[] = new String[10];
         String res = "";
+
+
         for(int i = 0; i < 10; i++)
         {
             int r = random.nextInt(10);
