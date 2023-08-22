@@ -26,8 +26,35 @@ public class App
         Artist artist = f.artist();
         System.out.println(artist.name());
         Random random = new Random();
-        System.out.println(random.nextInt());
+        System.out.println(random.nextInt(10));
         System.out.println(random.nextInt(1000,2000));
+
+        System.out.println();
+
+
+        String str[] = new String[10];
+        String res = "";
+        for(int i = 0; i < 10; i++)
+        {
+            int r = random.nextInt(10);
+            str[i] = Integer.toString(r);
+            res= res + str[i];
+        }
+        System.out.println("Phone number is " + res);
+        System.out.println("Phone Number is " + str[0] + str[1] + str[2] + str[3] + str[4] + str[5] + str[6] + str[7] + str[8] + str[9] );
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
