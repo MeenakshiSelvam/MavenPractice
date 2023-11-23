@@ -47,6 +47,7 @@ public class DataDrivenTesting {
         String act_url=driver.getCurrentUrl();
 
         if(exp.equals("Valid"))
+
         {
             if(exp_url.equals(act_url))
             {
